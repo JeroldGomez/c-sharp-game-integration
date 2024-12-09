@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jb\\source\\repos\\GameIntegration\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{331A96FE-D302-4A0B-897E-B1C12593AFCC}|GameIntegration\\Navigation.csproj|c:\\users\\jb\\source\\repos\\gameintegration\\gameintegration\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{331A96FE-D302-4A0B-897E-B1C12593AFCC}|GameIntegration\\Navigation.csproj|solutionrelative:gameintegration\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{331A96FE-D302-4A0B-897E-B1C12593AFCC}|GameIntegration\\Navigation.csproj|C:\\Users\\Jb\\source\\repos\\GameIntegration\\gameintegration\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{331A96FE-D302-4A0B-897E-B1C12593AFCC}|GameIntegration\\Navigation.csproj|solutionrelative:gameintegration\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{331A96FE-D302-4A0B-897E-B1C12593AFCC}|GameIntegration\\Navigation.csproj|C:\\Users\\Jb\\source\\repos\\GameIntegration\\gameintegration\\navigation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{331A96FE-D302-4A0B-897E-B1C12593AFCC}|GameIntegration\\Navigation.csproj|solutionrelative:gameintegration\\navigation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Navigation.cs",
+              "DocumentMoniker": "C:\\Users\\Jb\\source\\repos\\GameIntegration\\GameIntegration\\Navigation.cs",
+              "RelativeDocumentMoniker": "GameIntegration\\Navigation.cs",
+              "ToolTip": "C:\\Users\\Jb\\source\\repos\\GameIntegration\\GameIntegration\\Navigation.cs",
+              "RelativeToolTip": "GameIntegration\\Navigation.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAswDgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:54:15.658Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Navigation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jb\\source\\repos\\GameIntegration\\GameIntegration\\Navigation.cs",
+              "RelativeDocumentMoniker": "GameIntegration\\Navigation.cs",
+              "ToolTip": "C:\\Users\\Jb\\source\\repos\\GameIntegration\\GameIntegration\\Navigation.cs [Design]",
+              "RelativeToolTip": "GameIntegration\\Navigation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T08:09:21.976Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Navigation.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Jb\\source\\repos\\GameIntegration\\GameIntegration\\Navigation.Designer.cs",
+              "RelativeDocumentMoniker": "GameIntegration\\Navigation.Designer.cs",
+              "ToolTip": "C:\\Users\\Jb\\source\\repos\\GameIntegration\\GameIntegration\\Navigation.Designer.cs",
+              "RelativeToolTip": "GameIntegration\\Navigation.Designer.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAowOQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:35:51.015Z",
+              "IsPinned": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

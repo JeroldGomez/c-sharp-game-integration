@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{331A96FE-D302-4A0B-897E-B1C12593AFCC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GameIntegration</RootNamespace>
+    <AssemblyName>GameIntegration</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Navigation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Navigation.Designer.cs">
+      <DependentUpon>Navigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Navigation.resx">
+      <DependentUpon>Navigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\C-Flappy-Bird-Game-Windows-Form\Flappy Bird Windows Form\Flappy Bird Windows Form\Flappy Bird Windows Form.csproj">
+      <Project>{050c9abb-a0d1-4404-a4b3-1620ae98f8cd}</Project>
+      <Name>Flappy Bird Windows Form</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Save-the-eggs-game-in-windows-form\Save the Eggs Game MOO ICT\Save the Eggs Game MOO ICT.csproj">
+      <Project>{39094364-b125-4e66-900d-3803a682b489}</Project>
+      <Name>Save the Eggs Game MOO ICT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Side-Scrolling-Platform-game-in-Windows-Form\Side Scrolling Game MOO ICT\Side Scrolling Game MOO ICT.csproj">
+      <Project>{d7d94999-ea60-47ae-9d09-f8000d36566c}</Project>
+      <Name>Side Scrolling Game MOO ICT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\T-Rex-Endless-Runner-Game-in-Windows-Form\T Rex Endless Runner MOO ICT\T Rex Endless Runner MOO ICT.csproj">
+      <Project>{ba26a219-4585-442b-8081-6615126e1851}</Project>
+      <Name>T Rex Endless Runner MOO ICT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Top-Down-Zombie-Shooter-Game-in-Windows-Form\Shoot Out Game MOO ICT\Shoot Out Game MOO ICT.csproj">
+      <Project>{851eab91-8f66-4e83-8415-45d4515b4be7}</Project>
+      <Name>Shoot Out Game MOO ICT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WPF-Space-shooter-game\Space battle shooter WPF MOO ICT\Space battle shooter WPF MOO ICT.csproj">
+      <Project>{a07df81c-1169-41aa-8698-3125ca1a9117}</Project>
+      <Name>Space battle shooter WPF MOO ICT</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YnexM9LwlwGu4Z1QnS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="screenshots\bird.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="screenshots\egg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="screenshots\side.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="screenshots\trex.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="screenshots\zombie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

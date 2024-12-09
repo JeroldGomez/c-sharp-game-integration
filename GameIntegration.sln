@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navigation", "GameIntegration\Navigation.csproj", "{331A96FE-D302-4A0B-897E-B1C12593AFCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space battle shooter WPF MOO ICT", "..\WPF-Space-shooter-game\Space battle shooter WPF MOO ICT\Space battle shooter WPF MOO ICT.csproj", "{A07DF81C-1169-41AA-8698-3125CA1A9117}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Side Scrolling Game MOO ICT", "..\Side-Scrolling-Platform-game-in-Windows-Form\Side Scrolling Game MOO ICT\Side Scrolling Game MOO ICT.csproj", "{D7D94999-EA60-47AE-9D09-F8000D36566C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoot Out Game MOO ICT", "..\Top-Down-Zombie-Shooter-Game-in-Windows-Form\Shoot Out Game MOO ICT\Shoot Out Game MOO ICT.csproj", "{851EAB91-8F66-4E83-8415-45D4515B4BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flappy Bird Windows Form", "..\C-Flappy-Bird-Game-Windows-Form\Flappy Bird Windows Form\Flappy Bird Windows Form\Flappy Bird Windows Form.csproj", "{050C9ABB-A0D1-4404-A4B3-1620AE98F8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Save the Eggs Game MOO ICT", "..\Save-the-eggs-game-in-windows-form\Save the Eggs Game MOO ICT\Save the Eggs Game MOO ICT.csproj", "{39094364-B125-4E66-900D-3803A682B489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T Rex Endless Runner MOO ICT", "..\T-Rex-Endless-Runner-Game-in-Windows-Form\T Rex Endless Runner MOO ICT\T Rex Endless Runner MOO ICT.csproj", "{BA26A219-4585-442B-8081-6615126E1851}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{331A96FE-D302-4A0B-897E-B1C12593AFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331A96FE-D302-4A0B-897E-B1C12593AFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331A96FE-D302-4A0B-897E-B1C12593AFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331A96FE-D302-4A0B-897E-B1C12593AFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07DF81C-1169-41AA-8698-3125CA1A9117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07DF81C-1169-41AA-8698-3125CA1A9117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07DF81C-1169-41AA-8698-3125CA1A9117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07DF81C-1169-41AA-8698-3125CA1A9117}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D94999-EA60-47AE-9D09-F8000D36566C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D94999-EA60-47AE-9D09-F8000D36566C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D94999-EA60-47AE-9D09-F8000D36566C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D94999-EA60-47AE-9D09-F8000D36566C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851EAB91-8F66-4E83-8415-45D4515B4BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851EAB91-8F66-4E83-8415-45D4515B4BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851EAB91-8F66-4E83-8415-45D4515B4BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851EAB91-8F66-4E83-8415-45D4515B4BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050C9ABB-A0D1-4404-A4B3-1620AE98F8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050C9ABB-A0D1-4404-A4B3-1620AE98F8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050C9ABB-A0D1-4404-A4B3-1620AE98F8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050C9ABB-A0D1-4404-A4B3-1620AE98F8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39094364-B125-4E66-900D-3803A682B489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39094364-B125-4E66-900D-3803A682B489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39094364-B125-4E66-900D-3803A682B489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39094364-B125-4E66-900D-3803A682B489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA26A219-4585-442B-8081-6615126E1851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA26A219-4585-442B-8081-6615126E1851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA26A219-4585-442B-8081-6615126E1851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA26A219-4585-442B-8081-6615126E1851}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A35A9001-7604-4240-B96B-BB8C4C9B88C9}
+	EndGlobalSection
+EndGlobal
